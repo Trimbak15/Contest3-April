@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest 2</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <p>Filter UI cards via their Profession.</p>
+
+    <div>
+        <select id="profession">
+        <option value="">Profession<i class='bx bx-chevron-down'></i></option>
+        <option value="Developer">Developer</option>
+        <option value="Admin">Admin</option>
+        </select>
+    </div>
+    <!-- array container -->
+    <div id="users-container"></div>
+
+
+    <!-- after filter this should filter according to the project idea -->
+    <button id="filter-btn">Filter</button>
+
+    <p>Add a new user</p>
+
+    <div class="flex">
+        <section>
+            <label for="name"> Enter Name</label>
+            <input type="text" id="name">
+        </section>
+        <section>
+            <label for="profession"> Enter Profession</label>
+            <input type="text" id="profession-input">
+        </section>
+        <section>
+            <label for="age"> Enter Age</label>
+            <input type="number" id="age">
+        </section>
+    </div>
+    <button id="add-btn">Add User</button>
+
+
+    <footer>
+        &copy; Trimbak Pakhale 2023
+    </footer>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
